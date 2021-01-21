@@ -1,4 +1,5 @@
 import sys
-sys.stdin =open("./InputData/1545.txt","r")
+sys.stdin =open("./Input_Data/1545.txt","r")
 
-s\
+for i in reversed(range(int(input())+1)):
+    print(i,end=' ')
