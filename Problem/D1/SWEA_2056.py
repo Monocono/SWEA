@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("./Input_Data/2056.txt","r")
+sys.stdin=open("./Input_Data/D1/2056.txt","r")
 
 D = [31,28,31,30,31,30,31,31,30,31,30,31]
 for T in range(int(input())):

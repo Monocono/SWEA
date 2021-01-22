@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("./Input_Data/1859.txt", "r")
+sys.stdin = open("./Input_Data/D2/1859.txt", "r")
 
 for T in range(int(input())):
     d=int(input())

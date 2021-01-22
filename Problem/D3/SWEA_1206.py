@@ -1,12 +1,11 @@
 import sys
-sys.stdin= open("./Input_Data/1206.txt","r")
-
+sys.stdin= open("./Input_Data/D3/1206.txt","r")
+init=[0,0]
 for T in range(10):
     w=int(input())
-    #print(w)
     ws=list(map(int,input().split()))
-    print(ws)
     res=0
+    ws.extend(init); ws.reverse(); ws.extend(init)
     for i in range(2,len(ws)-2):
         m=max(max(ws[i-1],ws[i-2]),max(ws[i+1],ws[i+2]))
         if m<ws[i]:
