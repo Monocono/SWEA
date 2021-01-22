@@ -1,7 +1,8 @@
 import sys
-sys.stdin=open("./input/2063.txt","r")
+sys.stdin=open("./Input_Data/2063.txt","r")
 
 N=int(input())
-list=list(map(int,input().split(" ")))
-list.sort()
-print(list[int((N-1)/2)])
+a=list(map(int,input().split(" ")))
+print(a)
+a.sort()
+print(a[int((N-1)/2)])

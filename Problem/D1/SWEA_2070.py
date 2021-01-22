@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("./input/2070.txt","r")
+sys.stdin=open("./Input_Data/2070.txt","r")
 
 for T in range(int(input())):
     a,b=map(int, input().split(" "))
