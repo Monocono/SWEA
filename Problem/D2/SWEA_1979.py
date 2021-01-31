@@ -31,4 +31,5 @@ for T in range(int(input())):
                 cnt += 1
         if cnt:
             nums[cnt] += 1
+            
     print("#{} {}".format(T+1, nums[k]))
