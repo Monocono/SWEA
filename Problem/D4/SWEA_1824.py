@@ -5,7 +5,7 @@ def solve():
     dx = [-1,0,1,0] # 북동남서 0123
     dy = [0,1,0,-1]
     visit = [[[[0 for _ in range(16)] for _ in range(4)]for _ in range(20)]for _ in range(20)]
-    stack = [[0,0,3,0]]
+    stack = [[0,0,1,0]]
     while stack:
         x,y,dir,mem = stack.pop()
         if visit[x][y][dir][mem]:
