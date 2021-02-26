@@ -15,7 +15,7 @@ for T in range(int(input())):
         s_l[0] = s_l[1]
         s_l[1] = s
         t_l[0] = t_l[1]
-        t_l[1] =
+        t_l[1] = t
     k = r_l[2]//r_l[0]
     print("#{} {} {}".format(T+1, s_l[0]*k, t_l[0]*k))
 #https://8iggy.tistory.com/19
