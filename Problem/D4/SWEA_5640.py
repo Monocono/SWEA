@@ -19,3 +19,4 @@ for T in range(int(input())):
     k = r_l[2]//r_l[0]
     print("#{} {} {}".format(T+1, s_l[0]*k, t_l[0]*k))
 #https://8iggy.tistory.com/19
+#https://ieatt.tistory.com/17
