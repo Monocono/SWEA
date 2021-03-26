@@ -19,12 +19,16 @@ for T in range(10):
             num.append(c)
         elif not len(oper) or c =='(':
             oper.append(c)
-        elif priority[c] < priority[oper[-1]]:
+        elif priority[c] < priority[oper[-1]] and c !=')':
             oper.append(c)
         else:
             while len(oper) and priority[c] >= priority[oper[-1]]:
+                if oper[-1] == '(':
+                    oper.pop()
+                    break
                 num.append(oper.pop())
-            oper.append(c)
+            if c != ')':
+                oper.append(c)
 
     while len(oper):
         num.append(oper.pop())
